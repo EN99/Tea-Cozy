@@ -1,0 +1,169 @@
+html {
+  background: black;
+  opacity: 0.9;
+  color: white;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+.flex-container {
+  display: flex;
+}
+
+header ul {
+  display: inline-block;
+  margin: auto 15px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+body {
+  margin: 0;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  color: seashell;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.flex-container img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+
+body {
+  margin: 0;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.main {
+  min-width: 1200px;
+  position: relative;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mission {
+  background-image: url(../../Resources/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  flex: 1 1;
+  max-width: 1200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+#banner {
+  background-color: black;
+  position: relative;
+  flex: 1 1;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  position: relative;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-left: 130px;
+  flex: 1 1;
+}
+
+#banner1 {
+  background-color: black;
+  position: relative;
+  flex: 1 1;
+  padding-top: 10px;
+}
+
+.month {
+
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+#location {
+  background-image: url(../../Resources/images/locations.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  flex: 1 1;
+  width: 1200px;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-top: 70px;
+  margin-top: 40px;
+}
+
+#address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: seashell;
+}
+
+.store {
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+  padding: 15px;
+  width: 300px;
+  color: seashell;
+}
+
+#copyright {
+  margin-left: 20px;
+  align-self: flex-start;
+}
+
+.main1 {
+  height: 200px;
+  width: 100%;
+}
